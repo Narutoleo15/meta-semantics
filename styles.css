@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+body {
+	background-color: rgb(5, 75, 26);
+}
+#logo {
+	width: 10%;
+	cursor: pointer;
+}
+img {
+	width: 100%;
+}
+li,
+a,
+button {
+	font-family: "nerko One", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(214, 211, 21);
+	align-items: center;
+	padding: 30px 10px;
+}
+
+.nav-links {
+	list-style: none;
+}
+.nav-links li {
+	display: inline-block;
+	/* margin-right: 50px; */
+	padding: 0 20px;
+	list-style: none;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 2em;
+}
+.nav-links li a:hover {
+	/* text-decoration: underline; */
+	font-size: 2.5em;
+	color: rgb(16, 214, 59);
+}
+
+button {
+	padding: 9px 20px;
+	border-radius: 50%;
+	background-color: rgb(16, 214, 59);
+	cursor: pointer;
+	border: none;
+	transition: all 0.3s ease 0s;
+}
+button:hover {
+	/* text-decoration: underline; */
+	font-size: 2.5em;
+	color: rgb(184, 214, 16);
+}
